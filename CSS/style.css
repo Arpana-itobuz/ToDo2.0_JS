@@ -23,7 +23,8 @@ div {
 #allButton,
 #activeButton,
 #completedButton,
-#clearButton {
+#clearButton,
+#clearAllButton {
   margin-left: 10px;
   background-color: rgb(13, 8, 2);
   border-radius: 5px;
@@ -74,8 +75,6 @@ input {
 }
 .completed > span {
   text-decoration: line-through;
-
-  /* margin-right: 2px; */
 }
 
 .completed button:nth-child(2) {
