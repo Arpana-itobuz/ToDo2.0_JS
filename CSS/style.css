@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-  background-color: rgb(229, 194, 226);
+  background-color: rgb(206, 163, 203);
 }
 
 h1 {
@@ -76,9 +76,14 @@ input {
 }
 
 .completed button:nth-child(2) {
-  background-color: gray;
+  background-color: rgb(159, 211, 15);
   color: white;
 }
+
+.completed button:nth-child(2n+1):hover {
+  background-color: red;
+}
+
 
 .fas {
   padding: 10px;
@@ -90,6 +95,13 @@ body > div {
 
 #check {
   margin-left: 6px;
+}
+
+#allButton:hover , #activeButton:hover , #completedButton:hover , #clearButton:hover , #clearAllButton:hover {
+background-color:rgb(206, 163, 203) ;
+border: 1px solid black;
+color: black;
+cursor: pointer;
 }
 
 

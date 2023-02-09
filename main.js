@@ -4,8 +4,8 @@ const inputValue = document.getElementById("inputValue");
 const trash = document.getElementById("trash");
 const check = document.getElementById("check");
 const inputContent = document.getElementById("inputContent");
-const destination = document.getElementById("destination"); 
-const clearAllButton=document.getElementById("clearAllButton")
+const destination = document.getElementById("destination");
+const clearAllButton = document.getElementById("clearAllButton");
 
 let taskArray = [];
 
@@ -98,10 +98,10 @@ clearButton.addEventListener("click", () => {
   }
 });
 
-clearAllButton.onclick = function (){
-    destination.innerHTML="";
-    taskArray = []
-}
+clearAllButton.onclick = function () {
+  destination.innerHTML = "";
+  taskArray = [];
+};
 
 input.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
