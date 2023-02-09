@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(229, 194, 226);
+}
+
+h1 {
+  color: rgb(13, 8, 2);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#plusButton,
+#allButton,
+#activeButton,
+#completedButton,
+#clearButton {
+  margin-left: 10px;
+  background-color: rgb(13, 8, 2);
+  border-radius: 5px;
+  color: rgb(207, 182, 205);
+  border: none;
+  padding: 10px;
+}
+
+#button {
+  margin-top: 20px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid black;
+}
+
+.source {
+  display: none;
+}
+
+#destination {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContent button {
+  background-color: black;
+  color: rgb(207, 182, 205);
+  outline: none;
+  border: none;
+}
+
+.inputContent > button {
+  margin: 3px;
+}
+
+.inputContent {
+  width: 210px;
+  margin: auto;
+}
+
+#inputValue {
+  width: 112px;
+  padding: 6.5px;
+  border: 1px solid black;
+  background-color: white;
+}
+.completed > span {
+  text-decoration: line-through;
+
+  /* margin-right: 2px; */
+}
+
+.completed button:nth-child(2) {
+  background-color: gray;
+  color: white;
+}
+
+.fas {
+  padding: 10px;
+}
+
+body > div {
+  margin-bottom: 20px;
+}
+
+#check {
+  margin-left: 6px;
+}
