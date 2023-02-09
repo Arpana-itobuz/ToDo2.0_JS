@@ -100,6 +100,7 @@ clearButton.addEventListener("click", () => {
 
 clearAllButton.onclick = function (){
     destination.innerHTML="";
+    taskArray = []
 }
 
 input.addEventListener("keypress", (e) => {

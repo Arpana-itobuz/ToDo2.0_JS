@@ -40,10 +40,7 @@ div {
 input {
   padding: 12px;
   border: 1px solid black;
-}
-
-.source {
-  display: none;
+  width: 150px;
 }
 
 #destination {
@@ -72,6 +69,7 @@ input {
   padding: 6.5px;
   border: 1px solid black;
   background-color: white;
+  overflow-x: auto;
 }
 .completed > span {
   text-decoration: line-through;
@@ -93,3 +91,5 @@ body > div {
 #check {
   margin-left: 6px;
 }
+
+
